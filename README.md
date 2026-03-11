@@ -32,8 +32,4 @@
 <p>Players without permission can only view their own playtime. Admins have the ability to read and change other players' playtime.</p>
 <p>Read playing time: <span style="color:#f1c40f">/player-playtime get name</span></p>
 <p>Reset playing time: <span style="color:#f1c40f">/player-playtime reset name</span></p>
-<<<<<<< HEAD
 <p>Set playing time: <span style="color:#f1c40f">/player-playtime set name 0 0 2</span></p></div>
-=======
-<p>Set playing time: <span style="color:#f1c40f">/player-playtime set name 0 0 2</span></p></div>
->>>>>>> ef126cd94e0c8921b39bcadf0f702e16d547417c
