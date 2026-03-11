@@ -1,0 +1,37 @@
+disconnect.kicked.reason=§
+disconnect.kicked=§l§cYou have been kicked
+
+## errors
+
+playtime.error.invalidOption=§cInvalid option: §e%s
+playtime.error.notExist=§e%s§c does not exist
+
+## clock
+
+playtime.commands.clock.setTime=§bThe time was set to §6%s§7:§6%s§7:§6%s§b
+playtime.commands.clock.setReset=§bThe playtime will reset at §6%s§7:§6%s§7:§6%s
+
+playtime.commands.maxPlaytime.get=§bThe maximum playtime is §6%sh, %sm, %ss§b long
+playtime.commands.maxPlaytime.set=§bThe maximum playtime was set to §6%sh, %sm, %ss
+
+playtime.commands.playerPlaytime.remainingTime=§bRemaining playtime: §6%sh, %sm, %ss
+playtime.commands.playerPlaytime.reset=§bThe playtime of §6%s§b was reset
+playtime.commands.playerPlaytime.set=§bThe playtime of §6%s§b was set to §6%sh, %sm, %ss
+
+playtime.commands.playtime.reason=§bPlaytime: §6%s§7h §6%s§7m §6%s§7s\n§bTime: §a%s§7:§a%s§7:§a%s
+
+playtime.commands.registry.settings=Defines the settings
+playtime.commands.registry.max-playtime=Sets the maximum playtime
+playtime.commands.registry.player-playtime=Changes the current playtime
+playtime.commands.registry.clock=Changes the time and reset
+playtime.commands.registry.playtime=Shows the current playtime and time
+
+playtime.commands.settings.status=§bThe module §6%s§b has the setting §6%s
+playtime.commands.settings.setStatus=§bThe module §6%s§b was set to §6%s
+playtime.commands.settings.confirmReset=§bConfirm reset with §6/settings %s§b. The process will cancel after §630 seconds
+playtime.commands.settings.stopReset=§cReset cancelled
+playtime.commands.settings.successReset=§bReset successful
+
+## runs
+
+playtime.runs.actionbar=§8====================\n§bPlaytime: §6%s§7h §6%s§7m §6%s§7s\n§bTime: §a%s§7:§a%s§7:§a%s\n§8====================

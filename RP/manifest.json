@@ -1,0 +1,29 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Playtime",
+		"description": "This add-on adds a maximum daily playtime limit for each player. If this time expires, the player can no longer play.",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "1d9e1c4a-3aa2-43c1-b917-531d3037f881",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "5357b1af-dd34-4f1b-82a7-48557c823f84",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

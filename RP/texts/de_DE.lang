@@ -1,0 +1,37 @@
+disconnect.kicked.reason=§
+disconnect.kicked=§l§cDu wurdest gekickt
+
+## errors
+
+playtime.error.invalidOption=§cUngültige Option: §e%s
+playtime.error.notExist=§e%s§c existiert nicht
+
+## clock
+
+playtime.commands.clock.setTime=§bDie Uhrzeit wurde auf §6%s§7:§6%s§7:§6%s Uhr§b gesetzt
+playtime.commands.clock.setReset=§bDie Spielzeit wird um §6%s§7:§6%s§7:§6%s Uhr§b zurückgesetzt
+
+playtime.commands.maxPlaytime.get=§bDie maximale Spielzeit ist §6%sh, %sm, %ss§b lang
+playtime.commands.maxPlaytime.set=§bDie maximale Spielzeit wurde auf §6%sh, %sm, %ss§b gesetzt
+
+playtime.commands.playerPlaytime.remainingTime=§bDie verbleibende Spielzeit beträgt: §6%sh, %sm, %ss
+playtime.commands.playerPlaytime.reset=§bDie Spielzeit von §6%s§b wurde zurückgesetzt
+playtime.commands.playerPlaytime.set=§bDie Spielzeit von §6%s§b wurde auf §6%sh, %sm, %ss§b gesetzt
+
+playtime.commands.playtime.reason=§bSpielzeit: §6%s§7h §6%s§7m §6%s§7s\n§bUhrzeit: §a%s§7:§a%s§7:§a%s
+
+playtime.commands.registry.settings=Legt die Einstellungen fest
+playtime.commands.registry.max-playtime=Legt die maximale Spielzeit fest
+playtime.commands.registry.player-playtime=Verändert die aktuelle Spielzeit
+playtime.commands.registry.clock=Verändert die Uhrzeit und den Reset
+playtime.commands.registry.playtime=Zeigt die aktuelle Spielzeit und Uhrzeit an
+
+playtime.commands.settings.status=§bDas Modul: §6%s§b hat die Einstellung §6%s
+playtime.commands.settings.setStatus=§bDas Modul: §6%s§b wurde auf §6%s§b gesetzt
+playtime.commands.settings.confirmReset=§bZurücksetzung mit §6/settings %s§b bestätigen. Nach §630 Sekunden§b wird der Vorgang abgebrochen
+playtime.commands.settings.stopReset=§cZurücksetzung abgebrochen
+playtime.commands.settings.successReset=§bZurücksetzung erfolgreich
+
+## runs
+
+playtime.runs.actionbar=§8====================\n§bSpielzeit: §6%s§7h §6%s§7m §6%s§7s\n§bUhrzeit: §a%s§7:§a%s§7:§a%s\n§8====================

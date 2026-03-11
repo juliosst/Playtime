@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Playtime",
+		"description": "This add-on adds a maximum daily playtime limit for each player. If this time expires, the player can no longer play.",
+		"min_engine_version": [
+			1,
+			21,
+			120
+		],
+		"uuid": "432866c2-3f27-4494-b53f-684e93dc57f6",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "d445c187-49cf-48df-8723-4127303c5002",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "a32c0130-1012-4c7d-8970-61bc5f3d9760",
+			"entry": "scripts/runs/run.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "1d9e1c4a-3aa2-43c1-b917-531d3037f881",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.5.0"
+		}
+	]
+}
