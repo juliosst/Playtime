@@ -93,7 +93,7 @@ export function messageKick(name) {
 
                 setTime[time] = system.runTimeout(() => {
 
-                    sendMessage(`§bDeine zeit läuft in §6${time}s§b ab`, { name });
+                    sendMessage('playtime.runs.run.timeRunningOut', { name, withs: [`${time}`] });
 
                     if (time === 0) {
 
@@ -136,9 +136,10 @@ export function updatePlaytime(name, mode) {
 
             playerSave.join = Date.now();
 
+            messageKick(name);
+
             if (sett.actionbar) {
 
-                messageKick(name);
                 runActionbar();
             }
         }

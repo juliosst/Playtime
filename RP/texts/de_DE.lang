@@ -1,12 +1,17 @@
 disconnect.kicked.reason=§
 disconnect.kicked=§l§cDu wurdest gekickt
+disconnectionScreen.title.kickedFromWorld=§
 
 ## errors
 
 playtime.error.invalidOption=§cUngültige Option: §e%s
 playtime.error.notExist=§e%s§c existiert nicht
 
-## clock
+## events
+
+playtime.events.SpawnLeave.opInfo=§6Du kannst beitreten, da du OP-Rechte hast.
+
+## commands
 
 playtime.commands.clock.setTime=§bDie Uhrzeit wurde auf §6%s§7:§6%s§7:§6%s Uhr§b gesetzt
 playtime.commands.clock.setReset=§bDie Spielzeit wird um §6%s§7:§6%s§7:§6%s Uhr§b zurückgesetzt
@@ -35,3 +40,4 @@ playtime.commands.settings.successReset=§bZurücksetzung erfolgreich
 ## runs
 
 playtime.runs.actionbar=§8====================\n§bSpielzeit: §6%s§7h §6%s§7m §6%s§7s\n§bUhrzeit: §a%s§7:§a%s§7:§a%s\n§8====================
+playtime.runs.run.timeRunningOut=§bDeine zeit läuft in §6%ss§b ab

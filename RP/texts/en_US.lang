@@ -1,12 +1,17 @@
 disconnect.kicked.reason=§
 disconnect.kicked=§l§cYou have been kicked
+disconnectionScreen.title.kickedFromWorld=§
 
 ## errors
 
 playtime.error.invalidOption=§cInvalid option: §e%s
 playtime.error.notExist=§e%s§c does not exist
 
-## clock
+## events
+
+playtime.events.SpawnLeave.opInfo=§6You can join because you have OP permissions.
+
+## commands
 
 playtime.commands.clock.setTime=§bThe time was set to §6%s§7:§6%s§7:§6%s§b
 playtime.commands.clock.setReset=§bThe playtime will reset at §6%s§7:§6%s§7:§6%s
@@ -35,3 +40,4 @@ playtime.commands.settings.successReset=§bReset successful
 ## runs
 
 playtime.runs.actionbar=§8====================\n§bPlaytime: §6%s§7h §6%s§7m §6%s§7s\n§bTime: §a%s§7:§a%s§7:§a%s\n§8====================
+playtime.runs.run.timeRunningOut=§bYour time runs out in §6%ss
